@@ -1,0 +1,467 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+ width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.dashboard{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 36% 34% 20% 25% ;
+
+  grid-template-areas:
+    "top-right top-right-center top-left-center top-left"
+    "top-right center center top-left"
+    "bottom-right center center bottom-left"
+    "bottom-right bottom-center1 bottom-center2 bottom-left";
+
+    min-height: 100vh;
+    gap: 5px;
+}
+.top-right{
+  grid-area: top-right;
+  background-color: rgb(224, 203, 209);
+}
+.top-right-center{
+  grid-area: top-right-center;
+  background-color: rgb(255, 253, 253);
+}
+.top-left-center{
+  grid-area: top-left-center;
+  background-color: rgb(255, 255, 255);
+}
+.top-left{
+  grid-area: top-left;
+  background-color: rgb(237, 237, 237);
+}
+
+.center{
+  grid-area: center;
+  background-color: rgb(224, 203, 209);
+}
+
+.center-left3{
+  grid-area: center-left3;
+  background-color: orange;
+}
+.bottom-center1{
+  grid-area: bottom-center1;
+  background-color: rgb(252, 252, 252);
+}
+.bottom-center2{
+  grid-area: bottom-center2;
+  background-color: rgb(239, 239, 242);
+}
+.center-center2{
+  grid-area: center-center2;
+  background-color: purple;
+}
+.center-right1{
+  grid-area: center-right1;
+  background-color: pink;
+}
+.bottom-left{
+  grid-area: bottom-left;
+  background-color: rgb(255, 255, 255);
+}
+.bottom-center{
+  grid-area: bottom-center;
+  background-color: gray;
+}
+.bottom-right{
+  grid-area: bottom-right;
+  background-color: #000000;
+}
+#cicle{
+  width: 230px;
+  height: 220px;
+  border: 2px solid transparent;
+  background-color: #ffb0ba;
+  border-radius: 50%;
+  margin: auto;
+}
+#girl{
+  width: 280px;
+  height: 270px;
+  position: absolute;
+  top: 30%;
+  right: 32.6%;
+}
+#statistics-img{
+  width: 170px;
+  height: 150px;
+ position: absolute;
+  top: 43%;
+  left: 58%;
+}
+#growth-img{
+  width: 120px;
+  height: 90px;
+ position: absolute;
+  top: 50%;
+  left: 28%;
+  border-radius: 10px;
+}
+#marrage-img{
+  width: 120px;
+  height: 90px;
+ position: absolute;
+  top: 70%;
+  left: 59%;
+  border-radius: 11px;
+}
+#play-img{
+  width: 130px;
+  height: 40px;
+ position: absolute;
+  top: 76%;
+  left: 28%;
+  border-radius: 10px;
+}
+#smile-img{
+  width: 70px;
+  height: 100px;
+ position: absolute;
+ top: 95%;
+ left: 20px;
+ border-radius: 10px;
+}
+#goggles-img{
+  width: 70px;
+  height: 100px;
+ position: absolute;
+ top: 95%;
+ left: 120px;
+ border-radius: 10px;
+}
+#peoples-img{
+  width: 200px;
+  height: 200px;
+ position: absolute;
+ top: 68%;
+ left: 45px;
+ border-radius: 10px;
+ display: inline-block;
+}
+#font{
+  width: 150px;
+  height: 80px;
+  font-size: 20px;
+ font-weight: bold;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#bus{
+  color:#ffb0ba;
+font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 89%;
+}
+#per{
+  position: absolute;
+  top: 10%;
+  font-size: 10px;
+}
+#brand{
+  color: black;
+  font-size: 20px;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contr{
+  color: black;
+  font-size: 50px;  
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 50%;
+}
+#y{
+  position: absolute;
+  top: 62%;
+}
+#box{
+  width: 90px;
+  height: 20px;
+  border: 2px solid transparent;
+  background-color: #e0b4ba;
+  border-radius: 10px;
+  position: absolute;
+  top: 2%;
+  left: 13%;
+  padding: 2px;
+}
+#num{
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 5%;
+  left: 27%;
+}
+#views{
+  font-size: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 27%;
+}
+#heart{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 8%;
+  left: 44%;
+  background-color:#e0b4ba;
+  border-radius: 40%;
+}
+#eye{
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: 26%;
+  left: 27%;
+  background-color:#e0b4ba;
+  border-radius: 40%;
+}
+#vs{
+  font-size: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+#new{
+  font-size: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 7%;
+  left: 53%;
+  font-weight: bold;
+}
+#users{
+  font-size: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 53%;
+  font-weight: bold;
+}
+#users-img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20%;
+  left: 68%;
+  background-color:#e0b4ba;
+  border-radius: 40%;
+}
+#hick{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 25%;
+  left: 53%;
+  font-size: 20px;
+  font-weight: bold;
+ color: green;
+}
+#last{
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  top: 31%;
+  left: 53%;
+}
+#team{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+#team-img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 160px;
+  left: 70%;
+}
+hr{
+  width: 20%;
+  
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 35%;
+  left: 78%;
+}
+#clients{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  position: absolute;
+  top: 35%;
+  left: 77%;
+}
+#num2{
+  font-size: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 77.5%;
+}
+#increase1{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 60%;
+  left: 77.5%;
+  color:#ed465c;
+}
+#vs{
+  font-size: 12px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 66%;
+  left: 77.5%;
+}
+#line{
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 173, 173);
+  position: absolute;
+  top: 56%;
+  left: 90%;
+  border-radius: 10px;
+}
+#phone{
+  width: 100px;
+  height: 100px;
+ position: absolute;
+  top: 88%;
+  left: 82%;
+}
+#discover{
+  font-size: 11px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 115%;
+  left: 84%;
+  background-color: rgb(255, 173, 173);
+  padding: 5px;
+  border-radius: 10px;
+ 
+}
+#chart{
+  width: 100px;
+  height: 100px;
+ position: absolute;
+  top: 98%;
+  left: 65%;
+}
+#half-cicle{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 173, 173);
+  position: absolute;
+  top: 98%;
+  left: 64.5%;
+  border-radius: 50% 0 0 50%;
+}
+#build{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#crafting{
+  font-size: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 110%;
+}
+#explore{
+  font-size: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 115%;
+  left: 55%;
+  background-color: rgb(255, 173, 173);
+  padding: 5px;
+  border-radius: 10px;
+}
+#font1{
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+#fon{
+  border: 2px solid rgb(255, 255, 255);
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+background-color: rgb(255, 173, 173);
+  border-radius: 40%;
+  padding: 2px;
+}
+.container{
+  width: 150px;
+  height: 40px;
+  border: 2px solid transparent;
+  position: absolute;
+  top: 480px;
+  left: 28%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#a{
+background-color: rgb(255, 173, 173);
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+}
+#b{
+  background-color: rgb(189, 177, 118);
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+}
+#c{
+  background-color: rgb(151, 222, 133);
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+}
+#d{
+  background-color: rgb(124, 208, 217);
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+}
+#sk{
+  width: 30px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 10px;
+  left: 8px;
+  padding: 2px;
+}
